@@ -1,0 +1,327 @@
+html {
+    font-size: 16px;
+}
+
+body,
+p,
+ul {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.footer {
+    color: #494853;
+    font: 14px/1.5 "Microsoft YaHei", "SimSun", "\5b8b\4f53", sans-serif;
+}
+
+.swiper-slide {
+    position: relative;
+    width: 100%;
+}
+
+.swiper-container {
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+.slide-content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 30vw;
+    line-height: 34px;
+    font-size: 23px;
+    color: #444;
+
+}
+
+.slide-text {
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.left-section a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.arrow {
+    width: 36px;
+    height: 36px;
+    background: url(./img/arrow.png) no-repeat center center;
+    background-size: contain;
+}
+
+.menu-collapse img {
+    display: none;
+    position: absolute;
+    padding: 9px 10px;
+    right: 10px;
+    top: 99px;
+    width: 20px;
+    height: 20px;
+}
+
+.search .button {
+    background-image: url(./img/search.png);
+    position: absolute;
+    width: 27px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    height: 27px;
+}
+
+.wrap {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f5f7;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    width: 84%;
+    margin: 0 40px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.left-section p a:hover {
+    color: #c8132d;
+}
+
+.wrap button {
+    display: block;
+    color: #fff;
+    background-color: #c8132d;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    right: 60px;
+    padding: 4px 15px;
+    border: none;
+    border-radius: 2px;
+
+}
+
+header {
+    max-width: 1920px;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 菜单和Logo */
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 37px;
+    background-color: #fff;
+}
+
+nav ul li {
+    list-style: none;
+    padding-right: 16px;
+}
+
+nav .active {
+    color: #c8132d;
+}
+
+.logo img {
+    width: 156px;
+    height: auto;
+    margin: 42px 0 0 56px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu-right {
+    display: flex;
+}
+
+.menu li:hover {
+    color: #c8132d;
+}
+
+
+.menu-right li {
+    list-style: none;
+}
+
+.menu-right img {
+    width: 27px;
+    height: 27px;
+    margin-left: 39px;
+}
+
+.language {
+    max-width: 72px;
+    position: relative;
+    font: 14px/1.5 "Microsoft YaHei", "SimSun", "\5b8b\4f53", sans-serif;
+}
+
+.language .text {
+    height: 27px;
+    line-height: 27px;
+}
+
+.menu-right .language i {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin-top: -1px;
+    border-style: solid;
+    border-width: 5px 3px 0 3px;
+    border-color: #666 #fff #fff #fff;
+    transform: translateY(-2px);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.business {
+    margin-top: 10%;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "宋体";
+    color: #333;
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.summary {
+    position: relative;
+    text-align: center;
+    max-width: 995px;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 30px;
+    margin: 6px auto -71px;
+}
+
+.summary .text {
+    position: relative;
+    padding: 0 20px;
+}
+
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    opacity: .7;
+}
+.footer {
+    background: #eeeff2;
+    padding: 36px 10px 30px 10px;
+    margin-top: 10%;
+}
+
+.footer-layout {
+    display: flex;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.left {
+    margin-top: 42px;
+}
+
+.left-news {
+    margin-top: 9px;
+}
+
+.left-news ul {
+    display: flex;
+    margin-left: 12px;
+}
+
+.left-news li {
+    margin-right: 16px;
+}
+
+.right {
+    display: flex;
+}
+
+.code {
+    margin: 0 17px;
+}
+
+.caringcompany .pic img {
+    width: 100%;
+}
+
+.caringcompany {
+    width: 200px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

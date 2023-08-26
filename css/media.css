@@ -1,0 +1,155 @@
+@media (max-width: 1210px) {
+    .menu-collapse img {
+        display: block;
+        margin-top: -20px;
+    }
+
+    .menu,
+    .menu-right {
+        display: none;
+    }
+
+    header {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .logo img {
+        margin: 22px 0 0 32px;
+    }
+
+    .slide-content {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 910px) {
+    .slide-content {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .wrap button {
+        font-size: 14px;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slide-content {
+        font-size: 14px;
+        width: 220px;
+        line-height: 20px;
+    }
+
+    .logo img {
+        margin: 39px 0 0 32px;
+    }
+
+    .summary {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .slide-content {
+        font-size: 8px;
+        width: 200px;
+        line-height: 14px;
+    }
+
+    .arrow {
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+}
+
+@media(max-width: 640px) {
+    .summary {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 480px) {
+    .summary {
+        font-size: 8px;
+        padding: 0;
+        line-height: 14px;
+        margin: 6px auto -21px
+    }
+
+    .summary text {
+        padding: 0;
+    }
+
+    .layout {
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* footer */
+
+@media screen and (max-width:1060px) {
+    .footer-layout {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        margin: 0 auto;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .right {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .code .pic img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .caringcompany {
+        width: 100px;
+        height: 57px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .right {
+        flex-direction: column;
+    }
+}
